@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane id="parentPane" fx:id="parentPane" maxWidth="-Infinity" minWidth="-Infinity" prefHeight="578.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <left>
+      <AnchorPane fx:id="leftSideAnchorPane" prefHeight="561.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+   </left>
+   <right>
+      <AnchorPane fx:id="rightSideAnchorPane" prefHeight="561.0" prefWidth="207.0" BorderPane.alignment="CENTER" />
+   </right>
+   <center>
+      <AnchorPane id="containerPane" fx:id="containerPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="254.0" prefWidth="382.0" stylesheets="@../css/styles.css" BorderPane.alignment="CENTER">
+         <children>
+            <AnchorPane id="contentPane" fx:id="contentPane" prefHeight="223.0" prefWidth="378.0" stylesheets="@../css/styles.css">
+               <children>
+                  <TextArea fx:id="textArea" prefHeight="254.0" prefWidth="383.0" style="-fx-control-inner-background:#000000; -fx-font-family: Consolas; -fx-highlight-fill: #00ff00; -fx-highlight-text-fill: #000000; -fx-text-fill: #00ff00; " />
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </center>
+   <top>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+   </top>
+   <bottom>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+   </bottom>
+</BorderPane>

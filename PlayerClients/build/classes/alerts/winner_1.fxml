@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <bottom>
+    <AnchorPane prefHeight="90.0" prefWidth="600.0" BorderPane.alignment="CENTER" />
+  </bottom>
+  <center>
+    <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="260.0" prefWidth="300.0" BorderPane.alignment="CENTER">
+      <center>
+        <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="148.0" minWidth="186.0" prefHeight="244.0" prefWidth="282.0" style="-fx-background-color:black" BorderPane.alignment="CENTER">
+          <children>
+            <Text fill="#fff500" layoutX="92.0" layoutY="102.0" scaleX="1.6640850841646468" scaleY="4.306122181076427" strokeType="OUTSIDE" strokeWidth="0.0" text="This is Not Your Turn">
+              <effect>
+                <DropShadow radius="13.035714285714285" width="33.14285714285714">
+                  <input>
+                    <Lighting diffuseConstant="1.0317460317460316" surfaceScale="5.865079365079366">
+                      <bumpInput>
+                        <Shadow />
+                      </bumpInput>
+                      <light>
+                        <javafx.scene.effect.Light.Distant />
+                      </light>
+                    </Lighting>
+                  </input>
+                </DropShadow>
+              </effect>
+              <font>
+                <Font name="Baskerville Old Face" size="12.0" />
+              </font>
+            </Text>
+            <Button layoutX="90.0" layoutY="162.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="114.0" text="Ok">
+              <effect>
+                <DropShadow color="#fff733" height="45.19047619047619" radius="22.095238095238095" width="45.19047619047619">
+                  <input>
+                    <Lighting specularConstant="0.7444444444444444" specularExponent="26.349206349206348" surfaceScale="2.7698412698412693">
+                      <bumpInput>
+                        <Shadow />
+                      </bumpInput>
+                      <light>
+                        <javafx.scene.effect.Light.Spot pointsAtZ="-100.0" specularExponent="1.3809523809523812" x="100.0" y="100.0" z="100.0" />
+                      </light>
+                    </Lighting>
+                  </input>
+                </DropShadow>
+              </effect>
+              <font>
+                <Font size="16.0" fx:id="x1" />
+              </font>
+            </Button>
+          </children>
+        </AnchorPane>
+      </center>
+    </BorderPane>
+  </center>
+  <left>
+    <AnchorPane prefHeight="220.0" prefWidth="150.0" BorderPane.alignment="CENTER" />
+  </left>
+  <right>
+    <AnchorPane prefHeight="220.0" prefWidth="150.0" BorderPane.alignment="CENTER" />
+  </right>
+  <top>
+    <AnchorPane prefHeight="52.0" prefWidth="600.0" BorderPane.alignment="CENTER" />
+  </top>
+</BorderPane>
