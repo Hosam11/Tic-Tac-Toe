@@ -1,4 +1,4 @@
-# Tic-Tac-Toe- Game
+# Tic-Tac-Toe Game
 
 the application Allow the player to play in single mode with difficulty leve
 the application allow two players either to play locally on the same machine or on two different machines via network
