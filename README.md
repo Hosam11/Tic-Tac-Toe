@@ -20,3 +20,8 @@ https://drive.google.com/open?id=1sw6tQphnKwmH70oIAv28pldytaXwHPnG
 
 ![losing - win game](https://user-images.githubusercontent.com/18370055/80658182-be86a500-8a85-11ea-99a5-8fb110d9c1e7.PNG)
 
+# How To Use 
+1- import xo.sql to mysql database from the  database schema folder
+2- run Conf.java class which are inside the DatabaseServer folder to start listen on the connection to database
+3- run NewServer.java class which are inside the ServerPlayers folder to start listen on the player that want to playing via network
+4- run EntryPoint.java which are inside the ServerPlayers folder lass to open the game  
