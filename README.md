@@ -13,8 +13,7 @@ https://drive.google.com/open?id=1sw6tQphnKwmH70oIAv28pldytaXwHPnG
 ![login](https://user-images.githubusercontent.com/18370055/80657932-2be60600-8a85-11ea-80e5-d15a99ce33b1.PNG)
 
 <section data-markdown>
-  ## Some Header
-  ![login] (https://user-images.githubusercontent.com/18370055/80657932-2be60600-8a85-11ea-80e5-d15a99ce33b1.PNG)
+  ![login](https://user-images.githubusercontent.com/18370055/80657932-2be60600-8a85-11ea-80e5-d15a99ce33b1.PNG)
 <!--   ![alt_text](images/an_image.jpg) -->
   <img src="https://user-images.githubusercontent.com/18370055/80657932-2be60600-8a85-11ea-80e5-d15a99ce33b1.PNG"/>
 </section>
