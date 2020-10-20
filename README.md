@@ -6,7 +6,7 @@
 - The game give the user an option to record the game and store it for replay later.
 
 # Demo for the Game
-<a href="https://drive.google.com/open?id=1sw6tQphnKwmH70oIAv28pldytaXwHPnG" target="_blank">**Play Vedio**</a> 
+<a href="https://drive.google.com/open?id=1sw6tQphnKwmH70oIAv28pldytaXwHPnG" target="_blank">**Tic-Tac-Toe Game Demo**</a> 
 
 
 # Screens From The Game
