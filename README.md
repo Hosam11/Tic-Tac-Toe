@@ -5,11 +5,11 @@
 - The game allow two players either to play locally on the same machine or on two different machines via network.
 - The game give the user an option to record the game and store it for replay later.
 
-# Demo for the Game
-<a href="https://drive.google.com/open?id=1sw6tQphnKwmH70oIAv28pldytaXwHPnG" target="_blank">**Tic-Tac-Toe Game Demo**</a> 
+## Demo for the Game
+* <a href="https://drive.google.com/open?id=1sw6tQphnKwmH70oIAv28pldytaXwHPnG" target="_blank">**Tic-Tac-Toe Game Demo**</a> 
 
 
-# Screens From The Game
+## Screenshots
 
 |   |   |  |
 | :---: |:---:| :---:|
